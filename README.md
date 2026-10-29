@@ -67,7 +67,7 @@ git branch -M main
 git remote add origin https://github.com/Andru Vidal/proyecto-bigdata-streaming.git
 git push -u origin main
 
-Reemplaza TU-USUARIO por tu nombre de usuario de GitHub.
+Reemplaza Andru Vidal por tu nombre de usuario de GitHub.
 
 Fuente de datos
 
