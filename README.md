@@ -37,7 +37,9 @@ Configuración
 
 Se controla con variables de entorno:
 
-LATITUD=4.7110 LONGITUD=-74.0721 python3 productor_kafka.py
+LATITUD=4.7110 
+LONGITUD=-74.0721 
+python3 productor_kafka.py
 INTERVALO_SEGUNDOS=5 python3 productor_kafka.py
 VENTANA="2 minutes" spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1 procesar_streaming.py
 
@@ -52,11 +54,11 @@ Agrupa por ventanas de tiempo (con marca de agua para datos tardíos) y calcula 
 Muestra los resultados en consola.
 Estructura del repositorio
 proyecto-bigdata-streaming/
-├── productor_kafka.py
-├── procesar_streaming.py
-├── requirements.txt
-├── .gitignore
-└── README.md
+productor_kafka.py
+procesar_streaming.py
+requirements.txt
+gitignore
+README.md
 Publicar en GitHub
 git init
 git add README.md productor_kafka.py procesar_streaming.py requirements.txt .gitignore
