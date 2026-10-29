@@ -59,15 +59,6 @@ procesar_streaming.py
 requirements.txt
 gitignore
 README.md
-Publicar en GitHub
-git init
-git add README.md productor_kafka.py procesar_streaming.py requirements.txt .gitignore
-git commit -m "Agregar procesamiento streaming meteorologico con Kafka y Spark"
-git branch -M main
-git remote add origin https://github.com/Andru Vidal/proyecto-bigdata-streaming.git
-git push -u origin main
-
-Reemplaza Andru Vidal por tu nombre de usuario de GitHub.
 
 Fuente de datos
 
